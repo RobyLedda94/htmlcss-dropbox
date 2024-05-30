@@ -164,6 +164,10 @@ body{
     margin-bottom: -100px;
 }
 
+
+
+
+
 .section-two > h2{
     font-size: 30px;
 }
@@ -191,6 +195,8 @@ body{
 
 
 
+
+
 .section-tree{
     border: 1px solid rgb(107, 107, 107);
 }
@@ -200,7 +206,7 @@ body{
     text-align: center;
     border-bottom: 1px solid rgb(107, 107, 107);
     padding: 10px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .card-bottom{
@@ -211,9 +217,14 @@ body{
     margin: 25px 0;
 }
 
+.duration{
+    color: rgb(107, 107, 107);
+    font-size: 12px;
+}
+
 .card-bottom > div{
     margin: 25px 0; 
-    font-size: 14px;  
+    font-size: 14px;
 }
 
 .bottons.center{
