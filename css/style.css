@@ -3,3 +3,56 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+/* CLASSI DI LAYOUT */
+
+.container-full{
+    max-width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.col-50{
+    width: 50%;
+}
+
+
+/* CLASSI DI STILE */
+
+.py-10{
+    padding: 10px 0;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+.content ul{
+    display: inline-block;
+}
+
+.content.right{
+    text-align: right;
+}
+
+
+li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+li button{
+    padding: 5px;
+    background-color: rgb(43, 82, 255);
+    border: 0px;
+}
+
+
+
+
+
