@@ -29,6 +29,9 @@
 
 
 
+.col-5{
+    width: calc(100% / 5);
+}
 
 .col-33{
     width: calc(100% / 3);
@@ -69,6 +72,13 @@
     border: 1px solid black;
 }
 
+.content-footer{
+    margin: 10px;
+    height: 250px;
+    background-color: red;
+    border: 1px solid black;
+}
+
 
 /* classi di stile */
 
@@ -79,4 +89,8 @@
 
 .bg-white{
     background-color: #fff;
+}
+
+.bg-black{
+    background-color: black;
 }
