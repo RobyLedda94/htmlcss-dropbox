@@ -63,11 +63,11 @@ body{
 }
 
 .content-main{
-    padding: 20px;
+    padding: 20px 0;
     margin: 5px;
     /* height: 250px; */
      /* background-color: red;  */
-     border: 1px solid black; 
+     /* border: 1px solid black;  */
 }
 
 .content-main-stretch{
@@ -141,11 +141,11 @@ body{
 }
 
 .section-one > p{
-    margin: 15px 0;
+    margin-bottom: 30px;
 }
 
 .content-main > .bottons{
-    margin-top: 20px;
+    margin: 35px 0;
 }
 
 .bottons > .blue-bottons{
@@ -163,4 +163,29 @@ body{
 .jumbo{
     width: 100%;
     margin-bottom: -100px;
+}
+
+.section-two > h2{
+    font-size: 30px;
+}
+
+.circle{
+    display: inline-block;
+    margin-top: 40px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.circle.b-blue{
+    border: 4px solid blue;
+}
+
+.circle.b-gray{
+    border: 2px solid rgb(97, 97, 97);
+}
+
+.circle + span{
+    margin-right: 60px;
+    font-size: 12px;
 }
