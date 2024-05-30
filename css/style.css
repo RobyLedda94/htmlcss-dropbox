@@ -25,9 +25,8 @@
     flex-wrap: wrap;
 }
 
-.row.baseline{
-    align-items: baseline;
-}
+
+
 
 .col-33{
     width: calc(100% / 3);
@@ -55,7 +54,8 @@
 }
 
 .content-main{
-    /* height: 150px; */
+    margin: 10px;
+    height: 150px;
     background-color: red;
     border: 1px solid black;
 }
