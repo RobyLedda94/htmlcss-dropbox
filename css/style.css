@@ -69,8 +69,8 @@ body{
 
 .content-main-stretch{
     margin: 10px 5px;
-    min-height: 300px;
-    background-color: red;
+    height: 750px;
+    /* background-color: red; */
     border: 1px solid black;
 }
 
@@ -187,4 +187,56 @@ body{
 .circle + span{
     margin-right: 60px;
     font-size: 12px;
+}
+
+
+
+.section-tree{
+    border: 1px solid rgb(107, 107, 107);
+}
+
+
+.card-top{
+    text-align: center;
+    border-bottom: 1px solid rgb(107, 107, 107);
+    padding: 10px;
+    font-size: 15px;
+}
+
+.card-bottom{
+    padding: 20px;
+}
+
+.card-bottom > h3{
+    margin: 25px 0;
+}
+
+.card-bottom > div{
+    margin: 25px 0; 
+    font-size: 14px;  
+}
+
+.bottons.center{
+    text-align: center;
+}
+
+.blue-bottons.cards{
+    width: 90%;
+}
+
+.card-bottom > hr{
+    width: 20%;
+}
+
+.card-bottom > h4{
+    margin: 20px 0;
+}
+
+.list.card li{
+    margin: 10px 0;
+   
+}
+
+.list.card i{
+    color: #0061ff;
 }
