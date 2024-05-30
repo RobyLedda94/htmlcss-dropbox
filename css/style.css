@@ -69,7 +69,7 @@ body{
 
 .content-main-stretch{
     margin: 10px 5px;
-    /* height: 750px; */
+    height: 900px; 
     /* background-color: red; */
     border: 1px solid black;
 }
@@ -218,8 +218,14 @@ body{
     margin: 25px 0;
 }
 
+.card-bottom >.subscription{
+    color: darkgray;
+    font-size: 12px;
+}
+
 .list.card{
     padding: 5px;
+    font-size: 15px;
 }
 
 
