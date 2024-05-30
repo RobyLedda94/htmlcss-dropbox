@@ -15,12 +15,12 @@ body{
 }
 
 .container-bg{
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
 .container-sm{
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -63,14 +63,15 @@ body{
 }
 
 .content-main{
-    margin: 10px;
+    padding: 20px;
+    margin: 5px;
     /* height: 250px; */
      /* background-color: red;  */
      border: 1px solid black; 
 }
 
 .content-main-stretch{
-    margin: 10px;
+    margin: 10px 5px;
     min-height: 300px;
     background-color: red;
     border: 1px solid black;
@@ -99,7 +100,6 @@ body{
 .bg-black{
     background-color: black;
 }
-
 
 
 
@@ -132,6 +132,31 @@ body{
 
 .content-main.title{
     /* text-align: center; */
+    font-size: 25px;
+}
+
+
+.section-one{
+    font-size: 15px;
+}
+
+.section-one > p{
+    margin: 15px 0;
+}
+
+.content-main > .bottons{
+    margin-top: 20px;
+}
+
+.bottons > .blue-bottons{
+    padding: 10px;
+    background-color: #0061ff;
+    color: white;
+    border: 0px;
+    margin: 10px 0;
+}
+
+.fa-solid.fa-arrow-down{
     font-size: 25px;
 }
 
