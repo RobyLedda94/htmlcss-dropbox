@@ -28,6 +28,8 @@
 
 
 
+
+
 .col-33{
     width: calc(100% / 3);
 }
@@ -56,6 +58,13 @@
 .content-main{
     margin: 10px;
     height: 150px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.content-main-stretch{
+    margin: 10px;
+    height: 500px;
     background-color: red;
     border: 1px solid black;
 }
