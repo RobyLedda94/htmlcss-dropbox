@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+   font-family: "Roboto", sans-serif;
+}
+
 /* classi di layout */
 
 .container-full{
@@ -54,8 +58,8 @@
 } 
 
 .content-header{
-    height: 50px;
-    background-color: red;
+    padding: 30px;
+    display: flex;
 }
 
 .content-main{
@@ -74,7 +78,7 @@
 
 .content-footer{
     margin: 10px;
-    height: 250px;
+    /* height: 250px; */
     background-color: red;
     border: 1px solid black;
 }
@@ -93,4 +97,34 @@
 
 .bg-black{
     background-color: black;
+}
+
+
+
+
+.justify{
+    justify-content: end;
+}
+
+
+.logo{
+    margin-right: 15px;
+}
+
+
+.list li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.list li a{
+    color: black;
+    text-decoration: none;
+}
+
+.list .start{
+    padding: 5px;
+    border: 0px;
+    background-color: #0061ff;
 }
