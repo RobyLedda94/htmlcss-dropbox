@@ -64,8 +64,8 @@ body{
 
 .content-main{
     margin: 10px;
-    height: 250px;
-    background-color: red;
+    /* height: 250px; */
+    /* background-color: red; */
     border: 1px solid black;
 }
 
@@ -87,9 +87,9 @@ body{
 /* classi di stile */
 
 .bg-lightblue{
-    background-color: aqua;
+    background-color: #b8d0e7;
     padding: 50px 0px;
-}
+}s
 
 .bg-white{
     background-color: #fff;
@@ -127,4 +127,13 @@ body{
     padding: 5px;
     border: 0px;
     background-color: #0061ff;
+}
+
+.content-main.title{
+    /* text-align: center; */
+    font-size: 25px;
+}
+
+.jumbo{
+    max-width: 100%;
 }
