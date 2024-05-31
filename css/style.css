@@ -413,12 +413,11 @@ body{
 
 .square-center{
     padding: 40px;
+    background-color: #d9d6d6;
 }
 
-
-
 .square-center > .logo-center{
-    width: 150px;
+    width: 130px;
 }
 
 .square-center hr{
@@ -428,9 +427,51 @@ body{
 
 .square-center p{
     font-size: 12px;
-    margin-top: 30px;
+    margin-top: 32px;
 }
 
+
+.section-ten{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+
+.section-ten > h2{
+    font-size: 35px;
+    color: #5c0808;
+
+}
+
+
+.section-ten > .btn-s-ten{
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    padding: 10px;
+    border: none;
+    width: 200px;
+    
+}
+
+.section-eleven > .flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    border-top: 1px solid lightgray;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.section-eleven > h2{
+    margin: 20px 0px;
+    font-size: 30px;
+}
+
+.section-eleven > .flex.border{
+    border-bottom: 1px solid lightgray;
+}
 
 
 
