@@ -55,6 +55,10 @@ header{
     margin-top: 100px;
 }
 
+.p-30{
+    padding: 30px;
+}
+
 
 .col-5{
     width: calc(100% / 5);
