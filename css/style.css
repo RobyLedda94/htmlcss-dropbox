@@ -385,7 +385,7 @@ header{
 .square{
     position: relative;
     width: calc(100% / 2);
-    height: 150px;
+    height: 200px;
     /* background-color: red; */
     /* border: 1px solid black; */
 }
