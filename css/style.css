@@ -62,23 +62,15 @@ body{
 .content-main{
     padding: 20px 0;
     margin: 5px;
-    /* height: 250px; */
-     /* background-color: red;  */
-     border: 1px solid black;  
 }
 
 .content-main-stretch{
     margin: 10px 5px;
     height: 900px; 
-    /* background-color: red; */
-    border: 1px solid black;
 }
 
 .content-footer{
     margin: 20px;
-    /* height: 250px;  */
-    /* background-color: red; */
-    border: 1px solid black;
 }
 
 
@@ -367,7 +359,7 @@ body{
     width: 50%;
     height: 150px;
     /* background-color: red; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .bg-lightgreen{
@@ -493,11 +485,14 @@ body{
 
 .footer-line{
     width: 10%;
+    margin-bottom: 25px;
 }
 
 
 .content-footer.bottom{
-    color: #fff;
+    
+    color: #707070;
+    font-size: 10px;
 }
 
 
