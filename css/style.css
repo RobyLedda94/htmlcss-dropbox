@@ -75,9 +75,9 @@ body{
 }
 
 .content-footer{
-    margin: 10px;
-    height: 250px; 
-    background-color: red;
+    margin: 20px;
+    /* height: 250px;  */
+    /* background-color: red; */
     border: 1px solid black;
 }
 
@@ -472,6 +472,34 @@ body{
 .section-eleven > .flex.border{
     border-bottom: 1px solid lightgray;
 }
+
+
+.footer-list{
+    color: #fff;
+    list-style-type: none;
+}
+
+.footer-list > li{
+    margin: 15px 0;
+}
+
+
+.footer-list > li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 11px;
+}
+
+
+.footer-line{
+    width: 10%;
+}
+
+
+.content-footer.bottom{
+    color: #fff;
+}
+
 
 
 
