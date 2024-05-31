@@ -92,7 +92,7 @@ header{
 
 .content-main-stretch{
     margin: 10px 5px;
-    height: 900px; 
+    min-height: 900px; 
 }
 
 .content-footer{
