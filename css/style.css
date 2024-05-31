@@ -258,3 +258,97 @@ body{
 .list.card i.fa-solid.fa-check{
     color: #0061ff;
 }
+
+
+.content-main.section-four{
+    margin-top: 20px;
+    border: 1px solid rgb(107, 107, 107);
+}
+
+.part-top{
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid rgb(107, 107, 107) ;
+}
+
+.part-bottom{
+    padding: 20px;
+    position: relative;
+}
+
+.part-bottom p{
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+
+.bottons.absolute{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+.section-five-left{
+    padding: 20px;
+}
+
+
+.content-main.section-five > img{
+    width: 100%;
+}
+
+
+.content-main.section-five-left{
+    padding-top: 50px;
+}
+
+.content-main.section-five-left h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.content-main.section-five-left p{
+    margin: 30px 0;
+}
+
+.btn-section-five{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.content-main.section-six{
+    margin-top: 30px;
+}
+
+.content-main.section-six > h2{
+    font-size: 35px;
+}
+
+
+
+
+.section-seven{
+    padding: 20px;
+}
+
+
+
+
+.content-main.section-seven img{
+    width: 100%;
+}
+
+.content-main.section-seven h3{
+    margin: 20px 0;
+}
+
+
+.square{
+    float: left;
+    width: 50%;
+    height: 150px;
+    background-color: red;
+    border: 1px solid black;
+}
+
