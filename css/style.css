@@ -380,7 +380,7 @@ header{
 
 .square{
     position: relative;
-    width: 50%;
+    width: calc(100% / 2);
     height: 150px;
     /* background-color: red; */
     /* border: 1px solid black; */
