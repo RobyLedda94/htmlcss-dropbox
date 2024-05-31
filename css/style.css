@@ -504,6 +504,10 @@ header{
     margin: 15px 0;
 }
 
+.footer-list h4{
+    margin-bottom: 30px;
+}
+
 
 .footer-list > li a{
     text-decoration: none;
