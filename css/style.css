@@ -272,6 +272,12 @@ header{
 
 .list.card li{
     margin: 10px 0;
+    display: flex;
+   
+}
+
+.list.card li i{
+    margin-right: 5px;
    
 }
 
