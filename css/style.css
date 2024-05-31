@@ -366,21 +366,71 @@ body{
     position: relative;
     width: 50%;
     height: 150px;
-    background-color: red;
+    /* background-color: red; */
     border: 1px solid black;
 }
 
-.square > img{
+.bg-lightgreen{
+    background-color: #82d766;
+}
+
+.bg-purple{
+    background-color: #5c0808;
+}
+
+.bg-bluelight{
+    background-color: #3993ce;
+}
+
+.bg-red{
+    background-color: #ff0000;
+}
+
+.bg-darkred{
+    background-color:#d10404 ;
+}
+
+.bg-light{
+    background-color: #b8d0e7;
+}
+
+.bg-bluedark{
+    background-color: #192581;
+}
+
+.bg-yellow{
+    background-color: #ffd70c;
+}
+
+.square > .logo{
     position: absolute;
+    width: 100px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-
-.square > .logo-one{
-    width: 100px;
+.square-center{
+    padding: 40px;
 }
+
+
+
+.square-center > .logo-center{
+    width: 150px;
+}
+
+.square-center hr{
+    margin-top: 25px;
+    width: 20%;
+}
+
+.square-center p{
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+
 
 
 
