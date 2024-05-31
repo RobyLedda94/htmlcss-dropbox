@@ -10,6 +10,16 @@ body{
 
 /* classi di layout */
 
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+
+}
+
 .container-full{
     max-width: 100%;
 }
@@ -27,6 +37,10 @@ body{
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+
+.m-top85{
+    margin-top: 85px;
 }
 
 .my-40{
